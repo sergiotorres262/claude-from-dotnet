@@ -1,0 +1,69 @@
+# ---------------------------------------------------------------------------
+# .gitignore para claude-from-dotnet
+# Basado en la plantilla oficial de GitHub para Visual Studio / .NET
+# + reglas propias del repo (.env, *.local.json, etc.)
+# ---------------------------------------------------------------------------
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Rider / JetBrains
+.idea/
+*.iml
+
+# VS Code (carpeta local, settings personales)
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# .NET Core / Test results
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.lock.json
+TestResult.xml
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+coverage*.json
+coverage*.xml
+coverage*.info
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+# Secretos / config local — REGLA NO NEGOCIABLE
+.env
+.env.*
+!.env.example
+*.local.json
+appsettings.Development.json
+appsettings.Local.json
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Herramientas del agente (local-only)
+.claude/
