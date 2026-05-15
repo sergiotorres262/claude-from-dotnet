@@ -67,3 +67,6 @@ Desktop.ini
 
 # Herramientas del agente (local-only)
 .claude/
+
+# Cache del language server de C# (VS / VS Code / Rider)
+*.lscache

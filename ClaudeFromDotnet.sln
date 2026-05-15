@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-streaming", "examples\02
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-structured-output", "examples\03-structured-output\03-structured-output.csproj", "{01BAEFB2-128B-4A0D-A220-EE7330B6445D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-tool-use", "examples\04-tool-use\04-tool-use.csproj", "{E674D5D6-A010-4EC3-AF1F-EE3D8DFEB588}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,18 @@ Global
 		{01BAEFB2-128B-4A0D-A220-EE7330B6445D}.Release|x64.Build.0 = Release|Any CPU
 		{01BAEFB2-128B-4A0D-A220-EE7330B6445D}.Release|x86.ActiveCfg = Release|Any CPU
 		{01BAEFB2-128B-4A0D-A220-EE7330B6445D}.Release|x86.Build.0 = Release|Any CPU
+		{E674D5D6-A010-4EC3-AF1F-EE3D8DFEB588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E674D5D6-A010-4EC3-AF1F-EE3D8DFEB588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E674D5D6-A010-4EC3-AF1F-EE3D8DFEB588}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E674D5D6-A010-4EC3-AF1F-EE3D8DFEB588}.Debug|x64.Build.0 = Debug|Any CPU
+		{E674D5D6-A010-4EC3-AF1F-EE3D8DFEB588}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E674D5D6-A010-4EC3-AF1F-EE3D8DFEB588}.Debug|x86.Build.0 = Debug|Any CPU
+		{E674D5D6-A010-4EC3-AF1F-EE3D8DFEB588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E674D5D6-A010-4EC3-AF1F-EE3D8DFEB588}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E674D5D6-A010-4EC3-AF1F-EE3D8DFEB588}.Release|x64.ActiveCfg = Release|Any CPU
+		{E674D5D6-A010-4EC3-AF1F-EE3D8DFEB588}.Release|x64.Build.0 = Release|Any CPU
+		{E674D5D6-A010-4EC3-AF1F-EE3D8DFEB588}.Release|x86.ActiveCfg = Release|Any CPU
+		{E674D5D6-A010-4EC3-AF1F-EE3D8DFEB588}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,5 +78,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{4097FFF1-486A-4646-8885-D239E8DBD134} = {B36A84DF-456D-A817-6EDD-3EC3E7F6E11F}
 		{01BAEFB2-128B-4A0D-A220-EE7330B6445D} = {B36A84DF-456D-A817-6EDD-3EC3E7F6E11F}
+		{E674D5D6-A010-4EC3-AF1F-EE3D8DFEB588} = {B36A84DF-456D-A817-6EDD-3EC3E7F6E11F}
 	EndGlobalSection
 EndGlobal
