@@ -70,3 +70,6 @@ Desktop.ini
 
 # Cache del language server de C# (VS / VS Code / Rider)
 *.lscache
+
+# Sandbox generado en runtime por el ejemplo 05 (carpeta de trabajo del MCP server)
+examples/05-mcp/sandbox/
