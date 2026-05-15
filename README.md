@@ -2,7 +2,7 @@
 
 Guía práctica para integrar la API de Anthropic Claude desde **C# / .NET**.
 
-**En construcción** — ejemplos 01-05 listos, el 06 llega en las próximas semanas.
+**Los 6 ejemplos están completos.** Roadmap futuro: streaming de tool calls, MCP server propio, caching, evaluaciones automáticas.
 
 ---
 
@@ -37,7 +37,7 @@ Desarrolladores .NET que ya saben C# y quieren empezar a meter LLMs en su softwa
 | [03-structured-output](examples/03-structured-output/) | ✅ |
 | [04-tool-use](examples/04-tool-use/) | ✅ |
 | [05-mcp](examples/05-mcp/) | ✅ |
-| 06-rag | coming soon |
+| [06-rag](examples/06-rag/) | ✅ |
 
 ---
 
